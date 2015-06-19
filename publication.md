@@ -3,9 +3,9 @@ layout: default
 title: publications
 ---
 
-1. <font color=red>Zhao, X.</font>, Hou, Y., Yu, Q., Song, D. and Li, W. (2014). Extending the Extreme Physical Information to Universal Cognitive Models via a Confident Information First Principle. Entropy. 16(7):3670-3688.
+1. <font color=red>Zhao, X.</font>, Hou, Y., Song, D. and Li, W. (2015). A Confident Information First Principle for Parametric Reduction and Model Selection of Boltzmann Machines. arXiv:1302.3931
 
-2. <font color=red>Zhao, X.</font>, Hou, Y., Yu, Q., Song, D. and Li, W. (2013). Understanding Boltzmann Machine and Deep Learning via A Confident Information First Principle. arXiv:1302.3931
+2. <font color=red>Zhao, X.</font>, Hou, Y., Yu, Q., Song, D. and Li, W. (2014). Extending the Extreme Physical Information to Universal Cognitive Models via a Confident Information First Principle. Entropy. 16(7):3670-3688.
 
 3. Hou, Y., <font color=red>Zhao, X.</font>, Song, D. and Li, W. (2013). Mining Pure High-Order Word Associations via Information Geometry for Information Retrieval. ACM TOIS, 31(3), pp. 12:1-12:32.
 
