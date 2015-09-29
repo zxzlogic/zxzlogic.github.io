@@ -18,7 +18,9 @@ title: About Me
 
 My research interests include: 
 
-* stochastic gradient learning for Boltzmann machines;
-* context modeling in information retrieval;
-* information geometry theory.
+* Parametric reduction for deep learning models;
+* Gradient learning for deep Boltzmann machine;
+* High-order word dependence analysis;
+* Context modeling in information retrieval;
+* Information geometry theory.
 
