@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "A Python implementation of IR based on LevelDB"
+date:   2015-10-23 11:23:40
+categories: project
+---
+**Author**: Xiaozhao Zhao.
+
+**Institution**: Tianjin University
+
+A python implementation for information retrieval tasks, including forward/inverted index, basic retrieval models (e.g., BM25, uni-gram language model). The indexing module uses a thread-safe Python bindings for LevelDB (https://code.google.com/p/py-leveldb/). LevelDB is a fast key-value storage library.
+
+run: sh buildIndex.sh
+
+1. tokenize corpus by nltk
+
+2. extract the document infomation from the tokenized corpus, transform words into term_ids.
+output format: [doc_id \t term_id \t term_tf \t positions_in_doc]
+
+3. sort the second column (term_id) by number order (for building inverted index)
+
+4. build the forward index for corpus
+output to leveldb files: /forward_index_db
+
+5. build the inversed index for corpus
+output to leveldb files: /inverted_index_db
+
+6. get document length, get term's document frequency
+
+7. apply to information retrieval (BM25 and Language model)
+
+8. evaluation by trec_eval (version 9.0)
+
+This project can be found from <a href="https://github.com/zxzlogic/ir-python">here</a>.
